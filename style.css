@@ -1,0 +1,292 @@
+@font-face {
+    font-family: "Aktiv Grotesk W06 Light";
+    src: url("https://db.onlinewebfonts.com/t/0a2637106588e71433ed60ca3118b98f.eot");
+    src: url("https://db.onlinewebfonts.com/t/0a2637106588e71433ed60ca3118b98f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0a2637106588e71433ed60ca3118b98f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0a2637106588e71433ed60ca3118b98f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0a2637106588e71433ed60ca3118b98f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0a2637106588e71433ed60ca3118b98f.svg#Aktiv Grotesk W06 Light")format("svg");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.carousel-inner{
+    display: flex;
+    height: 40px;
+    background-color: #292A2E;
+    align-items: center;
+    
+}
+.carousel-item{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    
+}
+.carousel-item a{
+    color: white;
+    letter-spacing: 1.2px;
+    
+}
+.nine-dotes{
+    border: none;
+    background: transparent;
+}
+.contact-us::before{
+    background: #000;
+    content: "";
+    height: 1.5em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+}
+a.nav-link.top-left{
+    padding: 0 1rem;
+    letter-spacing: .1rem;
+}
+.top-head-left{
+    font-family: "Aktiv Grotesk W06 Light";
+    font-size: .8rem;
+    
+    height: 30px;
+    align-items: center;
+}
+.top-right svg{
+    padding: 0 6px;
+    margin: 0 6px;
+}
+.search-icon{
+    width: 180px;
+    border-radius: 200px;
+    border: none;
+}
+.search-icon svg{
+    float: left;
+    padding-left: 6px;
+}
+@media (max-width: 500px) {
+    .search-icon{
+        width: 30px;
+    }
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-nav.below {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(237, 238, 238);
+}
+a.nav-link.sidebar{
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+}
+li.nav-item::after {
+    background-image:url(img/ico_chevron_right_dark-052cfe59.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " ";
+    display: block;
+    height: 1rem;
+    width: 1rem;
+} 
+li.nav-item{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item-bottom a{
+    padding: 20px;
+    font-size: .8rem;
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+}
+.nav-item-bottom{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-fluid.armani-logo svg{
+    width: 100px;
+    justify-content: center;
+}
+.lifestyle a{
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    font-weight: 500;
+}
+header{
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+.content-box-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-box-right{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2vw !important;
+}
+.descript{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    color: #1e3932;
+    vertical-align: middle;
+    height: 100%;
+    text-align: center;
+}
+.button-b{
+    color: #1e3932;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: .3rem .5rem;
+    text-align: center;
+    margin-top: 2vw ;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0.9rem;
+    margin-left: 0.9rem;
+    font-size: 0.9vw;
+    width: 9vw;
+    height: 2vw;
+} 
+ 
+.tomake-center{
+    margin-left: 2rem;
+    text-align: center;
+}
+.tomake-center svg{
+    width: 12vw;
+    margin: 3vh 0;
+}
+.content-h{
+   font-weight: 500;
+   display: block;
+   font-size: 1.5vw;
+   opacity: 0.8;
+   text-align: center;
+}
+.final-box{
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+} 
+.form-control{
+    border: none !important;
+    border-bottom: 2px solid black !important;
+    padding-bottom: 2.5px;
+    border-radius: 0 !important;
+}
+.subscribe{
+    padding: 10px 15px 5px 15px;
+    background-color: black;
+    color: white;
+}
+a.subscribe{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.input-group{
+    font-size: 0,5rem;
+}
+.form-title{
+    letter-spacing: 0.1rem;
+}
+main{
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+@media (max-width: 764px) {
+    .tomake-center{
+        margin: 0 10px;
+        width: 100%;
+    }
+    .tomake-center svg{
+        width: 100%;
+    }
+    .content-h{
+        font-size: 4vw;
+    }
+    .button-b{
+        display: block;
+        margin: 3vw auto;
+        width: 30vw;
+        height: 8vw;
+        text-align: center;
+        font-size: 2.7vw;
+        padding-top: 0.5rem;
+        padding-bottom: 0.7vw;
+    }
+    .content-box-right{
+        display: flex;
+        justify-content: center;
+    }
+    .b-size{
+        width: 35vw !important;
+    }
+    .bt-size{
+        width: 40vw !important;
+    }
+    .foot{
+        display: none;
+    }
+    .list-footer svg{
+        width: 130px !important;
+    }
+    .ea svg{
+        width: 30px !important;
+    }
+    p.copy{
+        text-align:left !important;
+        
+    }
+    .svg-size{
+        width: 40vw !important;
+    }
+}
+.list-footer{
+    list-style: none;
+    padding: 0;
+}
+.list-footer li{
+    padding: 0.5vw 0;
+}
+.list-footer a{
+    text-decoration: none;
+    color: black;
+}
+.list-footer svg{
+    width: 8vw;
+}
+.ea svg{
+    width: 3vw;
+}
+.copy-sec{
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+}
+.copy-sec a{
+    color: white;
+    margin: 0;
+}
+@media (min-width: 764px){
+    .accord{
+        display: none;
+    }
+    
+   
+}
